@@ -3,23 +3,30 @@
   align-items: center;
 }
 .experienceBar span {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 .experienceBar > div {
   flex: 1;
-  height: 4px;
+  height: 9px;
   border-radius: 4px;
   background: var(--gray-line);
   margin: 0 1.5rem;
   position: relative;
 }
 .experienceBar > div > div {
-  height: 4px;
+  position: absolute;
+  height: 5px;
   border-radius: 4px;
   background: var(--green);
+  left: 2px;
+  top: 2px;
 }
 span.currentExprerience {
   position: absolute;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--blue);
   top: 12px;
   transform: translateX(-50%);
 }

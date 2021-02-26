@@ -13,25 +13,25 @@ export function ExperienceBar() {
 
   return (
     <header className={styles.experienceBar}>
-      <span>0 xp</span>
+      <span>0 XP</span>
       <div>
         <div
           style={{
             width: `${percentToNextLevel}%`,
-            transition: "width 2s ease-in",
+            transition: "width 1s ease-in",
           }}
         />
         <span
           className={styles.currentExprerience}
           style={{
             left: `${percentToNextLevel}%`,
-            transition: "left 2s ease-in",
+            transition: "left 1s ease-in",
           }}
         >
-          {currentExperience} xp
+          {currentExperience} XP
         </span>
       </div>
-      <span>{experienceToNextLevel} xp</span>
+      <span>{experienceToNextLevel} XP</span>
     </header>
   );
 }
