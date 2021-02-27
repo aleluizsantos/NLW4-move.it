@@ -21,15 +21,17 @@ export function ExperienceBar() {
             transition: "width 1s ease-in",
           }}
         />
-        <span
-          className={styles.currentExprerience}
-          style={{
-            left: `${percentToNextLevel}%`,
-            transition: "left 1s ease-in",
-          }}
-        >
-          {currentExperience} XP
-        </span>
+        {currentExperience > 0 && (
+          <span
+            className={styles.currentExprerience}
+            style={{
+              left: `${percentToNextLevel}%`,
+              transition: "left 1s ease-in",
+            }}
+          >
+            {currentExperience} XP
+          </span>
+        )}
       </div>
       <span>{experienceToNextLevel} XP</span>
     </header>
