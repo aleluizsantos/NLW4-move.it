@@ -31,7 +31,7 @@ Nos links abaixo você encontra o layout do projeto web e também do mobile. Lem
 ## Projeto foi publicado no Vercel
 A Vercel é uma plataforma voltada para a hospedagem de aplicações de uma forma bem simples e rápida. Ela é conhecida por ser a empresa criadora do framework Next JS, voltado para o React.
 
-Confira o projeto pelo link: [Move.it](https://moveit-w1w3nw016-aleluizsantos.vercel.app/)
+Confira o projeto pelo link: [Move.it](https://moveit-og8m3a59f-aleluizsantos.vercel.app/)
 
 
 
